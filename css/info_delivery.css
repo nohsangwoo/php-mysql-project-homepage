@@ -1,0 +1,16 @@
+@media only screen and (min-width: 992px) { /*992이상 아래내용 실행*/
+  .Word_size{font-size: 3em;}
+  .sub_size{font-size: 1.5em;}
+  .sub_margin{display: block; margin-top:25px;}
+  .img_margin{margin-top:50px; }
+  .img_margin_second{margin-top:150px;}
+}
+
+
+@media only screen and (max-width: 991px) { /*991이하 아래내용 실행*/
+  .Word_size{font-size: 1.5em;}
+  .sub_size{font-size: 1em;}
+  .sub_margin{display: block; margin-top:15px;}
+  .img_margin{margin-top:30px; }
+  .img_margin_second{margin-top:80px;}
+  }

@@ -1,0 +1,15 @@
+User-agent:*
+Disallow: /config
+Disallow: /parsing_lib
+Disallow: /js
+Disallow: /test
+Disallow: /wow
+Disallow: /dbeditor
+Disallow: /*.xls$
+Disallow: /*.pdf$
+Disallow: /*.hwp$
+Allow: /
+
+User-agent: Mediapartners-Google    
+Allow: /                                   
+

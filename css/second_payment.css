@@ -1,0 +1,13 @@
+.Word_Color_gray {color: rgb(95,101,101);}
+.second_payment_form_margin_top{ margin-top:0.2em;  }
+.Word_Color_orange {color: rgb(221,83,71);}
+
+.center{ display: block; margin: 0px auto; }
+@media only screen and (min-width: 768px) { /*768보다 크면 아래내용 실행*/
+
+
+  }
+
+
+@media only screen and (max-width: 767px) { /*767보다 작으면 아래내용 실행*/
+  }

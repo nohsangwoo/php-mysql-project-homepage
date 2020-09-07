@@ -1,0 +1,15 @@
+
+@media only screen and (min-width: 768px) { /*768보다 크면 아래내용 실행*/
+  .carousel_margin{  margin-top:255px; }
+  .order_btn_margin_top{  margin-top:100px; }
+
+  .SmallC{display: none;}
+}
+
+
+@media only screen and (max-width: 767px) { /*767보다 작으면 아래내용 실행*/
+  .carousel_margin{  margin-top:170px; }
+  .order_btn_margin_top{  margin-top:70px; }
+
+  .BigC{display: none;}
+  }

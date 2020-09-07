@@ -1,0 +1,8 @@
+@media only screen and (min-width: 768px) { /*768보다 크면 아래내용 실행*/
+  .agent_fee_contents{  margin-top:230px;  }
+}
+@media only screen and (max-width: 767px) { /*767보다 작으면 아래내용 실행*/
+  .agent_fee_contents{  margin-top:180px;  }
+}
+
+.Word_Color_orange {color: rgb(221,83,71);}

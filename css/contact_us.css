@@ -1,0 +1,19 @@
+
+.mail_Word_Color {color: rgb(221,83,71);}
+.line_Word_Color {color: rgb(0,195,0);}
+#btn1{width:100%;}
+@media only screen and (min-width: 768px) { /*768보다 크면 아래내용 실행*/
+  .order_word_size{ font-size:3em; }
+  .order_Word_margin{display: block;  margin-top:130px;}
+  .contact_us_btn_Property{display: block; margin: 1em auto; }
+  .line_qr { display: block; margin: 0px auto; margin-top:2em; width:190px; }
+}
+
+
+@media only screen and (max-width: 767px) { /*767보다 작으면 아래내용 실행*/
+  .order_word_size{ font-size:1.5em; }
+  .order_Word_margin{display: block;  margin-top:90px;}
+  #btnimg{display: block; margin-top:1em; margin: 0px auto; width:130px;}
+  .contact_us_btn_Property{display: block; margin: 1em auto; }
+  .line_qr { display: block; margin: 0px auto; margin-top:2em; width:130px; }
+  }
